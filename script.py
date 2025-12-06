@@ -1,7 +1,3 @@
-"""
-a script module
-"""
-
 from steps import hello_pre_commit
 
 
