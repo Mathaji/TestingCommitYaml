@@ -1,6 +1,5 @@
 #library for pre-commit yaml
 pre-commit
-
 # Python code linters
 black
 flake8

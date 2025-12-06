@@ -8,10 +8,12 @@ Once the above tools have been installed, you will use python library manager [p
 
 ## Dependency Installation
 
+Run the below command to install python dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
+Run the below command to install pre-commit to the .git/hooks
 ```bash
 pre-commit install
 ```
