@@ -3,7 +3,7 @@ def hello():
     print(f"Welcome to Pre-commit {name}  ")    
 
 def main():
-       hello()
+      hello()
 
 
 if __name__ == "__main__":
