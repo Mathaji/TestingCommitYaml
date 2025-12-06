@@ -3,10 +3,16 @@ repos:
   rev: stable
   hooks:
   - id: black
+    args: []
 - repo: https://github.com/PyCQA/flake8
   rev: 7.3.0
   hooks:
   - id: flake8
+    additional_dependencies: 
+    - pep8-naming
+    - flake8-tidy-imports
+    args: ["--config=utilities/.flake8"]
+
 - repo: https://github.com/pylint-dev/pylint
   rev: v4.0.4
   hooks:
