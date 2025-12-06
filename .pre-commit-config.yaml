@@ -3,7 +3,14 @@ repos:
   rev: stable
   hooks:
   - id: black
-# - repo: 
+- repo: https://github.com/PyCQA/flake8
+  rev: stable
+  hooks:
+  - id: flake8
+- repo: https://github.com/pylint-dev/pylint
+  rev: stable
+  hooks:
+  - id: pylint
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v6.0.0
   hooks:
