@@ -1,10 +1,14 @@
 def hello():
     name = input("Enter your name user: ")
-    print(f'Welcome to Pre-commit {name}   oinvibvhjvkjnsdajkvbuvbudbvbavibdivbidubviBvibajhvbivbaibvnvipvnivhonvbuahvabvuddkvjbiubvSLHbvuiSBvlsbvisdsvbsivbssbvhsdsivbdsuivdbviubvibvbsdljhbdidvbsdbvidbvo')   
+    print(
+        f"Welcome to Pre-commit {name}   oinvibvhjvkjnsdajkvbuvbudbvbavibdivbidubviBvibajhvbivbaibvnvipvnivhonvbuahvabvuddkvjbiubvSLHbvuiSBvlsbvisdsvbsivbssbvhsdsivbdsuivdbviubvibvbsdljhbdidvbsdbvidbvo"
+    )
 
 
-def main():  
+def main():
 
-            hello()
+    hello()
+
+
 if __name__ == "__main__":
     main()
