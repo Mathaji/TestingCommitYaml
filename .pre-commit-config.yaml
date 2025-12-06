@@ -1,14 +1,14 @@
 repos:
 - repo: https://github.com/psf/black/
-  rev: stable
+  rev: v25.11.0
   hooks:
   - id: black
 - repo: https://github.com/PyCQA/flake8
-  rev: stable
+  rev: v7.3.0
   hooks:
   - id: flake8
 - repo: https://github.com/pylint-dev/pylint
-  rev: stable
+  rev: v4.0.0
   hooks:
   - id: pylint
 - repo: https://github.com/pre-commit/pre-commit-hooks
