@@ -10,7 +10,8 @@ repos:
     additional_dependencies: 
     - pep8-naming
     - flake8-tidy-imports
-    args: ["--config=utilities/setup.cfg"]
+    args: ["--config=utilities/setup.cfg", "--verbose"]
+
 - repo: https://github.com/pylint-dev/pylint
   rev: v4.0.4
   hooks:
