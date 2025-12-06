@@ -16,7 +16,7 @@ repos:
   rev: v4.0.4
   hooks:
   - id: pylint
-    args: [--rcfile=utilities/setup.cfg"]
+    args: ["--rcfile=utilities/setup.cfg"]
 # - repo: https://github.com/pre-commit/pre-commit-hooks
 #   rev: v6.0.0
 #   hooks:
