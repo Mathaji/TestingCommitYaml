@@ -11,7 +11,7 @@ repos:
     additional_dependencies: 
     - pep8-naming
     - flake8-tidy-imports
-    args: ["--config=utilities/.flake8"]
+    args: ["--config=utilities/setup.cfg"]
 
 - repo: https://github.com/pylint-dev/pylint
   rev: v4.0.4
