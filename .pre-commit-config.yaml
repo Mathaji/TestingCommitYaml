@@ -11,21 +11,19 @@ repos:
     - pep8-naming
     - flake8-tidy-imports
     args: ["--config=utilities/setup.cfg"]
-    exclude: ^steps/
-
 - repo: https://github.com/pylint-dev/pylint
   rev: v4.0.4
   hooks:
   - id: pylint
     args: ["--rcfile=utilities/setup.cfg"]
+    exclude: ^steps/
 - repo: https://github.com/pylint-dev/pylint
   rev: v4.0.4
   hooks:
   - id: pylint
     args: 
     - "--disable=C0114,C0116"
-    files: ^steps/
-    
+    files: ^steps/   
 # - repo: https://github.com/pre-commit/pre-commit-hooks
 #   rev: v6.0.0
 #   hooks:
